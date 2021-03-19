@@ -28,7 +28,7 @@ let track = document.createElement('audio');
 let All_song = [
    {
      name: "first song",
-     path: "music/song1.mp3",
+     path: "music/song5.mp3",
      img: "img/img1.jpg",
      singer: "1"
    },
@@ -53,7 +53,7 @@ let All_song = [
    {
      name: "fifth song",
      path: "music/song5.mp3",
-     img: "img/img5.jpg",
+     img: "img/img1.jpg",
      singer: "5"
    }
 ];
