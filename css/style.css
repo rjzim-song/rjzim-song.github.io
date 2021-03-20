@@ -10,27 +10,29 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.main{
+
+.main1{
 	position: relative;
 	height: 80%;
 	width: 80%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(to right, #5D6D7E, #566573);
+	/*background: linear-gradient(to right, #5D6D7E, #566573);*/
+	background: green;
 }
-.main button{
+.main1 button{
 	padding: 10px 12px;
 	margin: 0 10px;
 }
-.main #logo{
+.main1 #logo{
 	position: absolute;
 	top: 10px;
 	left: 30px;
 	font-size: 25px;
 	color: #ccc;
 }
-.main #logo i{
+.main1 #logo i{
 	margin-right: 15px;
 }
 
@@ -65,7 +67,7 @@ input[type="range"]::-webkit-slider-thumb{
 	-webkit-appearance: none;
 	height: 20px;
 	width: 20px;
-	background: #FF8A65;
+	background: rgba(245,245,245,.9);
 	border-radius: 50%;
 	cursor: pointer;
 }
@@ -93,10 +95,10 @@ input[type="range"]::-webkit-slider-thumb{
 .left .volume i{
 	cursor: pointer;
 	padding: 8px 12px;
-	background: #FF8A65;
+	background: rgba(245,245,245,0.1);
 }
 .left .volume i:hover{
-	background: rgba(245,245,245,0.1);
+	background: brown;
 }
 .volume #volume_show{
 	padding: 8px 12px;
@@ -128,12 +130,24 @@ input[type="range"]::-webkit-slider-thumb{
 }
 .right #title{
 	position: absolute;
-	top: 60px;
-	left: 50%;
-	transform: translateX(-50%);
+	top: 70px;
+	left: 30%;
+	transform: translateX(-0%);
 	text-transform: capitalize;
-	color: #fff;
-	font-size: 35px;
+	color: white;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 980px) {
+  .right #title{
+	position: absolute;
+	top: 50px;
+	left: 30%;
+	transform: translateX(-0%);
+	text-transform: capitalize;
+	color: white;
+	font-size: 50px;
+ }
 }
 .right #artist{
 	position: absolute;
@@ -176,7 +190,7 @@ input[type="range"]::-webkit-slider-thumb{
 	margin-left: 8px;
 }
 #play{
-	background: #FF8A65;
+	background: ;
 }
 .right button:hover{
 	background: #FF8A65;
