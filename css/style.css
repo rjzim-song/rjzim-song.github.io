@@ -10,12 +10,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: green;
 }
 
 .main1 {
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
