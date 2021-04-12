@@ -172,7 +172,7 @@ function autoplay_switch() {
         auto_play.style.background = "rgba(255,255,255,0.2)";
     } else {
         autoplay = 1;
-        auto_play.style.background = "black";
+        auto_play.style.background = "#FF8A65";
     }
 }
 
