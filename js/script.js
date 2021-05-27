@@ -58,6 +58,20 @@ let All_song = [{
         path: "music/Sundor_Konna_5.mp3",
         img: "img/5.jpg",
         singer: "!important"
+    },
+    {
+        name: "Dhoro Jodi",
+        //path: "music/song2.mp3",
+        path: "music/DhoroJodi.mp3",
+        img: "img/dhoro.png",
+        singer: "!Sad"
+    },
+    {
+        name: "Lamborgini",
+        //path: "music/song2.mp3",
+        path: "music/lamborgini.mp3",
+        img: "img/lamborgini.jpg",
+        singer: "!Strong"
     }
 ];
 
