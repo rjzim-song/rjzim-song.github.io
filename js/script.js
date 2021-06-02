@@ -72,6 +72,20 @@ let All_song = [{
         path: "music/lamborgini.mp3",
         img: "img/lamborgini.jpg",
         singer: "!Strong"
+    },
+    {
+        name: "Srotoshinni",
+        //path: "music/song2.mp3",
+        path: "music/Srotoshinni.mp3",
+        img: "img/Srotoshinni.jpg",
+        singer: "!Strong"
+    },
+    {
+        name: "jannat",
+        //path: "music/song2.mp3",
+        path: "music/jannat.mp3",
+        img: "img/jannat.jpg",
+        singer: "forLove"
     }
 ];
 
