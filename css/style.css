@@ -10,7 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: green;
+    /* s-1 */
+    /*background: green;*/
 }
 
 .main1 {
@@ -20,10 +21,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background: linear-gradient(to right, #5D6D7E, #566573);*/
-    background: green;
+    /* s-2 */
+    background: linear-gradient(to right, #5D6D7E, #566573);
+    /* s-1 */
+    /*background: green;
     border-style:solid;
-    border-color:white;
+    border-color:white;*/
 }
 
 .main1 button {
