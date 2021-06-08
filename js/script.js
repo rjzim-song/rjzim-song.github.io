@@ -86,7 +86,28 @@ let All_song = [{
         path: "music/jannat.mp3",
         img: "img/jannat.jpg",
         singer: "forLove"
-    }
+    },
+    {
+        name: "jokhonPorbeNaMorPayerCinho",
+        //path: "music/song2.mp3",
+        path: "music/JokhonPorbeNaMor.mp3",
+        img: "img/jodiAmar.jpg",
+        singer: "Revealed"
+    },
+    {
+        name: "BeSuccessFull",
+        //path: "music/song2.mp3",
+        path: "music/music2.mp3",
+        img: "img/music2.jpg",
+        singer: "AchieveTheGoal"
+    },
+    {
+        name: "LoL",
+        //path: "music/song2.mp3",
+        path: "music/lol.mp3",
+        img: "img/lol.jpg",
+        singer: "AchieveTheGoal"
+    }        
 ];
 
 
