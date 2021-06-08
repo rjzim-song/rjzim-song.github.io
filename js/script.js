@@ -88,7 +88,7 @@ let All_song = [{
         singer: "forLove"
     },
     {
-        name: "jokhonPorbeNaMorPayerCinho",
+        name: "jokhon",
         //path: "music/song2.mp3",
         path: "music/JokhonPorbeNaMor.mp3",
         img: "img/jodiAmar.jpg",
